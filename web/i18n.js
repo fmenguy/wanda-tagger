@@ -2,6 +2,8 @@
 const I18N = {
     en: {
         demoBanner: 'Live demo with placeholder images: AI suggestions are simulated and nothing is saved.',
+        getIt: '⭐ Get it on GitHub',
+        seaart: '🎨 Wanda on SeaArt',
         review: 'review',
         tags: 'tags',
         tagged: 'tagged images',
@@ -27,6 +29,8 @@ const I18N = {
     },
     fr: {
         demoBanner: 'Démo en ligne avec des images factices : les suggestions IA sont simulées et rien n\'est enregistré.',
+        getIt: '⭐ Le code sur GitHub',
+        seaart: '🎨 Wanda sur SeaArt',
         review: 'relecture',
         tags: 'tags',
         tagged: 'images taguées',

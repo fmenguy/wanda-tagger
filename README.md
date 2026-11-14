@@ -2,11 +2,13 @@
 
 **A local web interface to tag a folder of images fast, with tag suggestions from Claude, plus a batch script that tags a whole folder for you.**
 
-[**▶ Try the live demo**](https://fmenguy.github.io/wanda-tagger/) (placeholder images, simulated AI) · [Version française](README.fr.md)
+[**▶ Try the live demo**](https://fmenguy.github.io/wanda-tagger/) (placeholder images, simulated AI) · [My AI art on SeaArt](https://www.seaart.ai/user/531aa6f7e28e2ad661b3c20b32ff46f7?u_code=FDOJP29Z) · [Version française](README.fr.md)
 
 ![Wanda Tagger interface](docs/screenshot.png)
 
 I built it to tag the AI art gallery of [wanda-aiart.org](https://wanda-aiart.org): a few hundred images, a personal vocabulary of tags, and a static site that reads one JSON file. If you keep images in folders and want searchable tags without a database or a cloud service, it should fit you too.
+
+**Coming from SeaArt?** If you download your generations (or images you liked) from [SeaArt](https://www.seaart.ai/user/531aa6f7e28e2ad661b3c20b32ff46f7?u_code=FDOJP29Z) and they pile up in a folder, point the tool at that folder: `auto_tag.py` tags the whole batch, then you browse it by style, character or mood. My own SeaArt space is [here](https://www.seaart.ai/user/531aa6f7e28e2ad661b3c20b32ff46f7?u_code=FDOJP29Z), say hi.
 
 ## What it does
 

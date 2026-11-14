@@ -2,11 +2,13 @@
 
 **Une interface web locale pour taguer rapidement un dossier d'images, avec des suggestions de tags par Claude, et un script qui tague tout un dossier à votre place.**
 
-[**▶ Essayer la démo en ligne**](https://fmenguy.github.io/wanda-tagger/?lang=fr) (images factices, IA simulée) · [English version](README.md)
+[**▶ Essayer la démo en ligne**](https://fmenguy.github.io/wanda-tagger/?lang=fr) (images factices, IA simulée) · [Mes créations sur SeaArt](https://www.seaart.ai/user/531aa6f7e28e2ad661b3c20b32ff46f7?u_code=FDOJP29Z) · [English version](README.md)
 
 ![Interface de Wanda Tagger](docs/screenshot.png)
 
 Je l'ai écrit pour taguer la galerie d'art IA de [wanda-aiart.org](https://wanda-aiart.org) : quelques centaines d'images, un vocabulaire de tags personnel, et un site statique qui lit un seul fichier JSON. Si vous rangez vos images dans des dossiers et voulez des tags cherchables sans base de données ni service en ligne, il devrait vous convenir aussi.
+
+**Vous venez de SeaArt ?** Si vous téléchargez vos générations (ou des images qui vous ont plu) depuis [SeaArt](https://www.seaart.ai/user/531aa6f7e28e2ad661b3c20b32ff46f7?u_code=FDOJP29Z) et qu'elles s'entassent dans un dossier, donnez ce dossier à l'outil : `auto_tag.py` tague tout le lot, ensuite vous le parcourez par style, personnage ou ambiance. Mon espace SeaArt est [ici](https://www.seaart.ai/user/531aa6f7e28e2ad661b3c20b32ff46f7?u_code=FDOJP29Z), passez dire bonjour.
 
 ## Ce qu'il fait
 
