@@ -1,0 +1,5 @@
+flask>=3.0
+pillow>=10.0
+pillow-avif-plugin>=1.4
+anthropic>=0.86
+python-dotenv>=1.0

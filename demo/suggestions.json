@@ -1,0 +1,76 @@
+{
+  "images/01-sunset.jpg": [
+    "landscape",
+    "mountain",
+    "sunset",
+    "nature",
+    "realistic"
+  ],
+  "images/02-portrait.jpg": [
+    "portrait",
+    "woman",
+    "studio",
+    "Aurora"
+  ],
+  "images/03-city.jpg": [
+    "city",
+    "night",
+    "neon",
+    "urban",
+    "scifi"
+  ],
+  "images/04-sea.jpg": [
+    "sea",
+    "beach",
+    "sunset",
+    "landscape"
+  ],
+  "images/05-space.jpg": [
+    "space",
+    "planet",
+    "scifi",
+    "3D"
+  ],
+  "images/06-forest.jpg": [
+    "forest",
+    "nature",
+    "landscape",
+    "outdoor"
+  ],
+  "images/07-cat.jpg": [
+    "animal",
+    "cat",
+    "minimalist",
+    "portrait"
+  ],
+  "images/08-robot.jpg": [
+    "robot",
+    "scifi",
+    "3D",
+    "full-body"
+  ],
+  "images/09-abstract.jpg": [
+    "abstract",
+    "colorful",
+    "minimalist"
+  ],
+  "images/10-rain.jpg": [
+    "city",
+    "rain",
+    "night",
+    "urban",
+    "neon"
+  ],
+  "images/11-winter.jpg": [
+    "winter",
+    "mountain",
+    "landscape",
+    "nature"
+  ],
+  "images/12-closeup.jpg": [
+    "portrait",
+    "close-up",
+    "man",
+    "Aurora"
+  ]
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wanda Tagger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="demo-banner" id="demoBanner" hidden data-i18n="demoBanner"></div>
+
+    <header class="top-section">
+        <div class="info">
+            <div>📷 <span id="counter">0/0</span> <span class="mode-badge" id="modeBadge" hidden data-i18n="review"></span></div>
+            <div class="filename" id="filename"></div>
+        </div>
+        <div class="tag-stats">
+            <span>🏷️ <b id="totalTags">0</b> <span data-i18n="tags"></span></span>
+            <span>✅ <b id="taggedImages">0</b> <span data-i18n="tagged"></span></span>
+            <span>📊 <b id="avgTags">0</b> <span data-i18n="perImage"></span></span>
+            <button class="lang-btn" id="langBtn" type="button" title="Language"></button>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <div class="search-box">
+            <input type="text" id="searchTags" data-i18n-placeholder="search" autocomplete="off">
+            <span class="search-icon">🔍</span>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <section class="image-container">
+            <img id="image" src="" alt="">
+            <div class="done-message" id="doneMessage" hidden data-i18n="done"></div>
+            <div class="image-nav">
+                <button class="back" id="backBtn" type="button">⬅️ <span data-i18n="back"></span></button>
+                <span id="counterMini">0/0</span>
+                <button class="skip" id="skipBtn" type="button"><span data-i18n="skip"></span> ⏭️</button>
+            </div>
+        </section>
+
+        <section class="controls">
+            <div class="categories-container" id="categoriesContainer"></div>
+
+            <div class="action-zone">
+                <input type="text" id="tags" data-i18n-placeholder="input" autocomplete="off" autofocus>
+                <div class="row">
+                    <button class="reuse-btn" id="reuseBtn" type="button">🔄 <span data-i18n="reuse"></span></button>
+                    <button class="reuse-btn suggest-btn" id="suggestBtn" type="button">✨ <span data-i18n="suggest"></span></button>
+                </div>
+                <div class="action-buttons">
+                    <button class="save" id="saveBtn" type="button">✅ <span data-i18n="save"></span></button>
+                    <button class="delete" id="deleteBtn" type="button" hidden>🗑️ <span data-i18n="delete"></span></button>
+                </div>
+                <div class="shortcuts">💡 <span data-i18n-html="shortcuts"></span></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="i18n.js"></script>
+    <script src="demo.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

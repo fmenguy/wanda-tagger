@@ -1,0 +1,36 @@
+{
+  "images/01-sunset.jpg": {
+    "tags": [
+      "landscape",
+      "mountain",
+      "sunset",
+      "nature",
+      "realistic"
+    ]
+  },
+  "images/02-portrait.jpg": {
+    "tags": [
+      "portrait",
+      "woman",
+      "studio",
+      "Aurora"
+    ]
+  },
+  "images/03-city.jpg": {
+    "tags": [
+      "city",
+      "night",
+      "neon",
+      "urban",
+      "scifi"
+    ]
+  },
+  "images/04-sea.jpg": {
+    "tags": [
+      "sea",
+      "beach",
+      "sunset",
+      "landscape"
+    ]
+  }
+}

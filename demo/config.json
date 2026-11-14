@@ -1,0 +1,29 @@
+{
+  "images_dir": "images",
+  "metadata_file": "metadata.json",
+  "extensions": [".avif", ".webp", ".png", ".jpg", ".jpeg"],
+  "language": "en",
+  "model": "claude-haiku-5-5",
+  "effort": "low",
+  "max_suggestions": 8,
+  "candidate_tags_limit": 80,
+  "allow_delete": false,
+  "nsfw_tags": ["nsfw", "suggestive"],
+  "popular_tags": ["portrait", "landscape", "realistic"],
+  "categories": {
+    "🎨 Style": ["realistic", "anime", "abstract", "watercolor", "3D", "pixel-art", "scifi", "fantasy", "minimalist", "colorful"],
+    "👤 Subjects": ["woman", "man", "robot", "animal", "cat", "dragon", "Aurora"],
+    "📸 Framing": ["portrait", "close-up", "full-body", "landscape", "studio"],
+    "📍 Places": ["city", "forest", "mountain", "sea", "beach", "space", "planet", "urban", "nature", "indoor", "outdoor"],
+    "🌈 Mood": ["night", "sunset", "rain", "winter", "neon"],
+    "🔞 NSFW": ["nsfw", "suggestive"]
+  },
+  "category_labels": {
+    "fr": {
+      "👤 Subjects": "👤 Sujets",
+      "📸 Framing": "📸 Cadrage",
+      "📍 Places": "📍 Lieux",
+      "🌈 Mood": "🌈 Ambiance"
+    }
+  }
+}
